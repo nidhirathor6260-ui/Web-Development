@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+:root {
+    --box-size: 100px;
+    --box-color: coral;
+    --sec-color: white;
+    --box-margin: 10px;
+}
+.box {
+    height: var(--box-size);
+    background-color: var(--box-color);
+    margin: var(--box-margin);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxes {
+    display: flex;
+    flex-direction: column;
+}
+.box2{
+    background-color: var(--sec-color);
+    border: 1px solid black;
+}
+.box3{
+    background-color: green;
+}
+</style>
+<body>
+    <div class="boxes">
+        <div class="box box1">box1</div>
+        <div class="box box2">box2</div>
+        <div class="box box3">box3</div>
+    </div>
+</body>
+</html>

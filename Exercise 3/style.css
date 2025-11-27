@@ -5,7 +5,9 @@
 }
 body{
     display:flex;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
    
 }
 .container{
@@ -31,7 +33,9 @@ body{
     padding : 0 6px;
     border-radius: 7px;
 }
-
+.conten{
+    padding :5px;
+}
 .content p{
     font-size: 9px;
     color: gray;
